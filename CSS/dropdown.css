@@ -1,0 +1,114 @@
+
+.sub-menu-wrap{
+    position: absolute;
+    z-index: 100;
+    top: 100%;
+    right: 5%;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+
+.sub-menu-wrap.open-menu{
+    max-height: max-content; /*760px*/
+}
+
+.sub-menu{
+    background: #333333;
+    border: 1px solid rgba(0, 0, 0, 0.782);
+    position: static;
+    display: block;
+    padding: 20px;
+    margin: 10px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.user-info h3{
+    border: none;
+    font-weight: 500;
+}
+
+#username{
+    color:#fff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#user-pic{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+.sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+}
+
+.dropdown-text{
+    color: #333;
+}
+
+.link-items{
+    display: inline-block;
+}
+
+.sub-menu-link{
+    max-height: fit-content;
+    text-decoration: none;
+    color: #fff;
+    margin: 12px 0;
+}
+.sub-menu a{
+    width: 100%;
+    text-align: start;
+}
+
+.sub-menu a:hover{
+    border: none;
+}
+
+.sub-menu-link img{
+    width: 50px;
+    background: #e5e5e5;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 15px;
+}
+
+.sub-menu-link p{
+    text-indent: 0%;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.sub-menu-link p.dp_text{
+    padding: 0 0.8rem;
+}
+
+.sub-menu-link .caret{
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    transition: transform 0.5s;
+}
+
+.sub-menu-link:hover .caret{
+    font-weight: 600;
+    transform: translateX(1rem);
+}
+
+.sub-menu-link:hover p{
+    font-weight: 600;
+}

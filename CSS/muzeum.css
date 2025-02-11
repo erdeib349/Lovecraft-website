@@ -1,0 +1,47 @@
+header{
+    background-image: url(../IMG/muzeum.jpg);
+}
+
+.container{
+    width: 80vw;
+    margin: 1em auto 1em;
+    text-align: justify;
+}
+
+#quotes{
+    width: 70%;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #333;
+    text-align: center;
+}
+#quoteDisplay{
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+
+button{
+    width: max-content;
+    align-self: center;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    border: none;
+    box-shadow: 0 .3rem #999;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(187, 187, 187);
+}
+
+button:active{
+    background-color: rgb(224, 221, 221);
+    box-shadow: 0 .1rem #666;
+    transform: translateY(4px);
+}
+
+.ismerteto{
+    text-indent:0;
+}

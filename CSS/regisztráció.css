@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&display=swap'); /*  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #333;
+    background-image: url(../IMG/cthulhu_wallpaper.jpg); 
+    background-image: url(../IMG/fantasy-monster-cthulhu-uhdpaper.com-4K.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 2rem 0 0 0;
+    height: 100vh;
+
+}
+
+h1{
+    font-family: "Special Elite",monospace;
+    text-align: center;
+    width: 50vw;
+    margin: 0 auto 0;
+    color:white;
+    text-shadow: 3px 3px 3px black;
+}
+
+form{
+    width: 70vw;
+    min-width: 520px;
+    margin-inline: auto;
+    border: 2px solid none;
+    padding: 0.5em;
+    min-height: 45vh;
+    border-radius: 1rem;
+}
+
+label{
+    padding-left: 2em;
+    width: 350px;
+    display: inline-block;
+}
+
+input{
+    width: 200px;
+    border-radius: 0.2rem;
+    padding: 0.2em;
+}
+
+fieldset{
+    color: white;
+    border-radius: 0.5rem;
+    line-height: 2;
+    padding: 0 1em 0 1em;
+    margin-bottom: 1em;
+}
+
+legend{
+    color:white;
+    font-weight: bold;
+}
+
+button{
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5em;
+    font-weight: 600;
+    border-radius: 0.3em;
+    border: 1px solid black;
+}
+
+#reset{
+    float: right;
+}
+
+#miert{
+    width: 70%;
+    margin:auto;
+    padding: 1rem;
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
+}
+
+footer{
+    font-size: 1rem;
+    text-align: center;
+    width: 250px;
+    border-bottom: 1px solid white;
+    margin: 0.5rem auto 1rem;
+    color:white;    
+    position: absolute;
+    bottom: 0;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+span{
+    font-weight: bold;
+}
+
+a:hover{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer p{
+    text-shadow: 2px 2px 2px black;
+}
+
+.figyelmeztetes{
+    color:white;
+    font-size: 1rem;
+    text-align: center;
+    margin: 25%;
+}

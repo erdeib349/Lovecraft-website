@@ -1,0 +1,164 @@
+header{
+    background-color: #333;
+    background-image: url(../IMG/bookshelf.jpg);
+}
+
+.ismerteto{
+    text-indent:0;
+    margin-bottom: 2rem;
+}
+
+summary {
+    /*  background-color: grey; */background-color: rgb(106, 106, 106);
+    font-weight: normal;
+    padding: 10px;
+    list-style-type: "⬇ ";
+    color: whitesmoke;
+}
+
+
+details {
+    border-bottom: 2px solid white;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+
+
+details .osszefoglalo {
+    padding: 10px;
+}
+
+details .osszefoglalo div {
+    background-color: #333;
+    background-image: url(../IMG/bodybg.jpg);
+    background-size: cover;
+    padding: 0.75em;
+    border-radius: 5px;
+    font-weight: normal;
+
+}
+
+summary:hover {
+    background-image: linear-gradient(to right,  grey,rgb(51, 51, 51));
+}
+
+summary::marker {
+    color: rgb(72, 0, 0);
+}
+
+details[open]>summary {
+    list-style-type: '⬆ ';
+
+}
+
+p,
+td {
+    text-align: justify;
+    text-indent: 0;
+}
+
+
+.elso-cella {
+    border-right: 1px solid white;
+    padding: 0 2em 0;
+    width: 70%;
+    position: relative;
+}
+
+.masodik-cella {
+    text-align: center;
+}
+
+.masodik-cella img{
+    border: 1px solid rgba(245, 245, 245, 0.4);
+}
+
+article{
+    padding: 0;
+}
+
+a{
+    color:white;
+}
+
+
+details .osszefoglalo .konyvjelzoDoboz {
+    position: absolute;
+    bottom: 0;
+    padding-left: 0;
+    background: none;
+    display: flex;
+    align-items: center;
+    width: fit-content;   
+}
+
+/*---Könyvjelző---*/
+
+input{
+    -webkit-appearance: none;
+    appearance: none;
+    margin-right: 3rem ;
+    height: 2rem;
+    border-right: 1rem solid #80878f;
+    border-bottom: 1rem solid transparent;
+    position: relative;
+    left: 20px;
+    outline: none;
+    cursor: pointer;
+}
+input:before{
+    content: "";
+    position: absolute;
+    left: -0.3rem;
+    height: 1rem;
+    border-left: 1rem solid #80878f;
+    border-bottom: 1rem solid transparent;
+}
+
+input:checked{
+    border-right-color: #2b8ced;
+    animation: scale 0.4s;
+    transition: 0.1s 0.3s border;
+}
+@keyframes scale{
+    80%{
+        transform: scale(0.8);
+    }    
+}
+input:checked:before{
+    border-left-color: #2b8ced;
+    transition: 0.1s 0.3s border;
+}
+
+/*---------------*/
+
+/*---Gomb---*/
+
+button{
+    width: max-content;
+    margin: 2rem 0;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    border: none;
+    box-shadow: 0 .3rem #999;
+}
+
+button:hover{
+    background-color: rgb(180, 178, 178);
+}
+
+button:active{
+    background-color: rgb(224, 221, 221);
+    box-shadow: 0 .1rem #666;
+    transform: translateY(4px);
+}
+#submitContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.utolso{
+    margin-bottom: 3rem;
+}

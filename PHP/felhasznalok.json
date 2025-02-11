@@ -1,0 +1,22 @@
+[
+    {
+        "kerNev": "Benedek",
+        "vezNev": "Erdei",
+        "email": "erdeib@gmail.com",
+        "jelszo": "$2y$10$EjAHqd50ytPIUHs7\/c5SAu9EP5oF1gPwMvZAtTretxIFre1gBJuwW",
+        "username": "erdeib",
+        "profil-kep": "\/uploads\/def.png",
+        "bookmarks": []
+    },
+    {
+        "kerNev": "Benedek",
+        "vezNev": "Erdei",
+        "email": "erdeib349@gmail.com",
+        "jelszo": "$2y$10$vitnupBTd4hMdaKkw.ADzerTomZI2A8mwfIfND0tGvDdX4q6mfTjm",
+        "username": "erdei",
+        "profil-kep": "..\/uploads\/def.png",
+        "bookmarks": [
+            "Necronomicon"
+        ]
+    }
+]

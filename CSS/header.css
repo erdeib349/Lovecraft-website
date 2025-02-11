@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&display=swap'); /*  */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    background-color: #333;
+    background-image: url(../IMg/background4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    height: 50vh;
+    background-image: url(../IMG/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}
+
+h1{
+    position: absolute;
+    top:20vh;
+    left:5vw;
+    font-weight: 300;
+    font-size:5rem;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Special Elite', 'Courier New', Courier, monospace; /*  */
+}
+
+.navbar{
+    font-family: 'Special Elite', 'Courier New', Courier, monospace; /*  */
+    position: sticky;
+    top:0;
+    background-color: hsla(0, 0%, 20%,0.85);
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.navbar li{
+    flex-grow: 1;
+}
+
+.navbar a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    padding:1em;
+    display: block;
+    text-align: center;
+    letter-spacing: 0.15em;
+    cursor: pointer;
+}
+
+.navbar a:hover{
+    border: 1px solid white;
+    background-color: #333;
+}
+
+#ugras{
+    border-radius: 50%;
+    position: fixed;
+    left: 1vw;
+    top:85vh;
+}
+
+p{
+    text-indent: 2em;
+    line-height: 2;
+}
+
+summary p {
+    line-height: 1;
+}
+
+q{
+    font-style: italic;
+}
+
+.container {
+    width: 80vw;
+    margin: 1em auto 1em;
+    text-align: justify;
+}
+
+
+h2{
+    font-size: 2.2rem;
+    margin: 1em 0;
+    border-bottom: 1px solid white;
+    font-weight: normal;
+}
+
+article{
+    padding: 1em;
+}
+
+html{
+    scroll-behavior: smooth;
+}

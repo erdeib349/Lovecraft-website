@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&display=swap');
+
+*{
+    font-family: 'Special Elite', 'Courier New', Courier, monospace;
+}
+
+header{
+    background-image: url(../IMG/profile_bg.jpg);
+}
+
+#profile-window{
+    margin: auto;
+    padding: 2rem 5rem;
+    width: 80%;
+    height: max-content;
+    /* background-color: red; */
+}
+
+#profile-data{
+    padding: 1rem;
+    display: block;
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+}
+
+#data{
+    display: flex;
+}
+
+.data{
+    width: 70%;
+    margin: 1rem;
+}
+
+.data fieldset{
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem 1rem 1rem;
+}
+
+Label{
+    margin: .3rem .3rem .3rem 1rem;
+    width: max-content;
+}
+
+#profil-kep-container{
+    margin: auto 0;
+    width: 30%;
+}
+
+#profil-kep{
+    width: 100%;
+    margin-bottom: 2rem;
+    border: 0.5rem outset white;
+}
+
+/*-------TEST--------*/
+input[type="text"], input[type = "password"], input[type="email"]{
+    color: white;
+    font-size: large;
+    margin-left: 1rem;
+    padding: .2rem;
+    background: #666;
+    border: 2px solid #222;
+    border-radius: .3rem;
+    height: 2rem;
+    width: 20vw;
+}
+
+button{
+    width: max-content;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    border: none;
+    box-shadow: 0 .3rem #999;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(187, 187, 187);
+}
+
+button:active{
+    background-color: rgb(224, 221, 221);
+    box-shadow: 0 .1rem #666;
+    transform: translateY(4px);
+}
+
+input[type="file"]{
+    background: gray;
+    border-radius: .3rem;
+    border: 2px solid #222;
+    color: white;
+}
+
+input[type="file"]::file-selector-button {
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #a09f9f;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  input[type="file"]::file-selector-button:hover {
+    background-color: #666;
+  }
+/*-----------*/
+
+footer{
+    font-size: 1rem;
+    text-align: center;
+    width: 20rem;
+    border-bottom: 1px solid white;
+    margin: 0.5rem auto 1rem;
+    color:white;    
+    position: relative;
+}
+
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+footer a:hover{
+    text-decoration: none;
+    color: hsla(208, 100%, 97%, 0.7);
+}
+
+footer p{
+    text-indent: 0;
+}

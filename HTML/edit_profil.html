@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/IMG/" type="image/x-icon">
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/edit_profil.css">
+    <link rel="stylesheet" href="/CSS/dropdown.css">
+    <script src="https://kit.fontawesome.com/62786e1e62.js" crossorigin="anonymous"></script>
+    <title>Edit Profil</title>
+</head>
+
+<body>
+    <header>
+        <h1>Profil szerkesztése</h1>
+    </header>
+    <main>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Irattár</a></li>
+                <li><a href="#">Múzeum</a></li>
+                <li><a href="#">Fogalomtár</a></li>
+                <li><a href="#" onclick="toggleMenu()">Szekta</a></li>
+            </ul>
+            <div id="dropdown">
+                <div class="sub-menu-wrap" id="subMenu">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            <img id="user-pic" src="/Dropdown_profile_template/images/user.png">
+                            <h3 id="username">User</h3>
+                        </div>
+                        <hr>
+                        <a href="profil.html" class="sub-menu-link">
+                            <p class="link-items"><i class="fa-regular fa-circle-user fa-2xl"></i></p>
+                            <p class="dp_text link-items">Profil</p>
+                            <p class="caret link-items">></p>
+                        </a>
+                        <a href="regisztracio.html" class="sub-menu-link">
+                            <p class="link-items"><i class="fa-solid fa-right-to-bracket fa-2xl"></i></p>
+                            <p class="dp_text link-items">Bejelentkezés</p>
+                            <p class="caret link-items">></p>
+                        </a>
+                        <a href="regisztracio.html" class="sub-menu-link">
+                            <p class="link-items"><i class="fa-regular fa-registered fa-2xl"></i></p>
+                            <p class="dp_text link-items">Regisztráció</p>
+                            <p class="caret link-items">></p>
+                        </a>
+                        <!-- <a href="#" class="sub-menu-link">
+                            <img src="/Dropdown_profile_template/images/register.png">
+                            <p class="dropdown-text">Register / Logout</p>
+                            <span class="dropdown-text">></span>
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="profile-window">
+            <form action="" method="post">
+            <div id="profile-data">
+                <div id="data">
+                    <div class="data">
+                        <div id="head">
+                            <h2>User-name</h2>
+                            <hr>
+                        </div>
+                        <div class="profile-data-items">
+                            <p class="profile-data-item">E-mail cím: <div>emailcim@email.com</div></p>
+                        </div>
+                        <div class="profile-data-items">
+                            <p class="profile-data-item">Utolsó bejelentkezés ideje: <div>2024.03.18.</div></p>
+                        </div>
+                        <div class="profile-data-items">
+                            <p class="profile-data-item">Regisztráció ideje: <div>2024.01.01.</div></p>
+                        </div>
+                    </div>
+                    <div id="profile-pic">
+                        <img id="pfp" src="/IMG/pfp-template.png" alt="pfp">
+                    </div>
+                </div>
+            </div>
+        </div>
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <p><a href="profil.html">Profil</a> &gt; Profil szerkesztése</p>
+    </footer>
+
+    <script>
+        let subMenu = document.getElementById("subMenu");
+
+        function toggleMenu() {
+            subMenu.classList.toggle("open-menu");
+        }
+    </script>
+</body>
+
+</html>

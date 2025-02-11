@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Special Elite', 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: #333;
+    background-image: url(../IMG/ctulhu-transformed.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#container{
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    border-radius: 1rem;
+}
+
+#container h2{
+    padding: 1rem;
+    font-size: xx-large;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    font-size: x-large;
+}
+
+input[type="text"], input[type = "password"], input[type="email"]{
+    color: white;
+    font-size: large;
+    padding: .2rem;
+    background: #666;
+    border: 2px solid #222;
+    border-radius: .3rem;
+    height: 2rem;
+    width: 100%;
+}
+
+button{
+    width: max-content;
+    align-self: center;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    border: none;
+    box-shadow: 0 .3rem #999;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(187, 187, 187);
+}
+
+button:active{
+    background-color: rgb(224, 221, 221);
+    box-shadow: 0 .1rem #666;
+    transform: translateY(4px);
+}
+
+#nincs-profil{
+    padding: 2rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+
+#nincs-profil a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    font-size: 1rem;
+    text-align: center;
+    width: 20rem;
+    border-bottom: 1px solid white;
+    margin: 0.5rem auto 1rem;
+    color:white;    
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+footer a:hover{
+    text-decoration: none;
+    color: hsla(208, 100%, 97%, 0.7);
+}
+
+footer p{
+    text-indent: 0;
+    text-shadow: 2px 2px 2px black;
+}

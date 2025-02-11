@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Csatlakozz a kultuszhoz, hogy le ne marardj a legújabb érdekességekről!">
+    <link rel="stylesheet" href="/CSS/regisztráció.css">
+    <title>Regisztráció</title>
+</head>
+
+<body>
+    <main>
+        <h1>Regisztráció</h1>
+        <form action="https://httpbin.org/post" method="post">
+            <fieldset>
+                <legend>Adatok</legend>
+                <table>
+                    <tr>
+                        <td class="label"> <label for="vezNev">Vezetéknév</label></td>
+                        <td><input type="text" id="vezNev" name="vezNev" required autofocus></td>
+                    </tr>
+                    <tr>
+                        <td class="label"><label for="kerNev">Keresztnév</label></td>
+                        <td><input type="text" id="kerNev" name="kerNev" required></td>
+                    </tr>
+                    <tr>
+                        <td class="label"><label for="email">Email-cím</label></td>
+                        <td> <input type="text" id="email" name="email" placeholder="valaki@gmail.com" required></td>
+                    </tr>
+                    <tr>
+                        <td class="label"><label for="jelszo">Jelszó</label></td>
+                        <td> <input type="password" id="jelszo" name="jelszo" required></td>
+                    </tr>
+                    <tr>
+                        <td class="label utolso"><label for="jelszoMegint">Jelszó mégegyszer</label></td>
+                        <td><input type="password" id="jelszoMegint" name="jelszoMegint" required></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <button type="submit" id="reg">Regisztrálok</button>
+            <button type="reset" id="reset">Töröl</button>
+        </form>
+    </main>
+    <footer>
+        <p><a href="index.html">Főoldal</a> &gt; Regisztráció</p>
+    </footer>
+</body>
+
+</html>
